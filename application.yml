@@ -1,0 +1,6 @@
+configserver: true
+eureka:
+  instance:
+    leaseRenewalIntervalInSeconds: 10
+    metadataMap:
+      instanceId: localhost:8080
